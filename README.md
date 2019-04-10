@@ -16,7 +16,7 @@ Cut to this length
 
 ### between
 **Type**: _String_  
-**Default**: ``  
+**Default**: `..`  
 This line will be added between the two halves of the text (adds to the length of the final result!)
 
 
@@ -25,6 +25,6 @@ This line will be added between the two halves of the text (adds to the length o
 'https://github.com'.shrink();
 // => https://github.com
 
-'https://developer.mozilla.org/en-US/'.shrink(18, ' .. ');
-// => https:/ .. /en-US/
+'https://developer.mozilla.org/en-US/'.shrink(18, ' - ');
+// => https:/ - /en-US/
 ```

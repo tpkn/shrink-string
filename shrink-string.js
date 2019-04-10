@@ -4,7 +4,7 @@ String.prototype.shrink = function(len, between){
       len = 32;
    }
    if(typeof between !== 'string'){
-      between = '';
+      between = '..';
    }
    if(this.length <= len + between.length){
       return this.toString();
